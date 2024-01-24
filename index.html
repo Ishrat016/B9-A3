@@ -17,7 +17,7 @@
 <script>
     tailwind.config = {
       theme: {
-        extend: {
+        extend: { 
           colors: {
             clifford: '#da373d',
           }
@@ -79,21 +79,33 @@
   <main>
     <section class="text-center my-24 lg:flex-col sm:col-span-1">
       <h2 class="text-5xl font-bold mb-5">Professional Hockeys Club</h2>
-      <P class="mx-auto mb-10 lg:max-w-3xl">its a Professional Hockey Club, you can learn Hockey and play hockey as well and enjoy Hockey </P>
-   <div class="gap-x-20 p-4 mt-8 lg:col-auto sm:flex-col">
-    <div class="radial-progress text-primary " style="--value:87;" role="progressbar">87% <br>
-      <h3 class="font-semibold text-black">Prayer Facility</h3>
+      <P class="mx-auto mb-10 lg:max-w-3xl">its a Professional Hockey Club, you can learn Hockey and play hockey as well and enjoy Hockey </P> 
+    </section>
+ <section class="grid grid-rows-1 text-center my-24 col-span-1">
+   <span>
+  <div class="  lg:col-auto sm:flex-col">
+    <div class="radial-progress text-primary" style="--value:80;" role="progressbar">80%</div>
+     <div> <h3 class="font-semibold text-black">Prayer Facility</h3>
  </div>
-<div class="radial-progress text-secondary" style="--value:95;" role="progressbar">95%
-  <br>
-  <h3 class="font-semibold text-black">Experienced Coach</h3></div>
-<div class="radial-progress text-tertiary" style="--value:90;" role="progressbar">90%
-  <br>
-  <h3 class="font-semibold text-black">Senior Player</h3></div>
-<div class="radial-progress text-secondary" style="--value:80;" role="progressbar">80%
-  <br>
-  <h3 class="font-semibold text-black">Training Ground</h3></div>
+</span>
+<span>
+ <div class="  lg:col-auto sm:flex-col">
+  <div class="radial-progress text-primary" style="--value:95;" role="progressbar">95%</div>
+   <div> <h3 class="font-semibold text-black">experience coach </h3>
 </div>
+</span>
+<span>
+<div class="  lg:col-auto sm:flex-col">
+  <div class="radial-progress text-primary" style="--value:90;" role="progressbar">90%</div>
+   <div> <h3 class="font-semibold text-black">senior player </h3>
+   </div>
+  </span>
+<span>
+   <div class=" lg:col-auto sm:flex-col">
+    <div class="radial-progress text-primary" style="--value:80;" role="progressbar">80%</div>
+     <div> <h3 class="font-semibold text-black">training ground </h3>
+     </div>
+     
 </section>
 <section>
  <div class="text-center my-24 lg:flex-col sm:col-span-1"> <h2 class="text-5xl font-bold mb-5">Program Sections</h2>
@@ -144,9 +156,9 @@
     </div>
 </section>
 <!-- card -->
-<section  class="grid grid-cols-2 gap-4 lg:col-span-1 lg:grid-col-1" >
+<section  class="grid grid-cols-2 gap-4 lg:auto-cols-max sm:grid-col-1" >
   <div>
-    <div class="card card-side bg-base-100 shadow-xl">
+    <div class="card card-side bg-base-100 shadow-xl ">
       <figure><img src="Images/5.png" alt="Movie"/></figure>
       <div class="card-body">
       <p>  <i class="fa-solid fa-star text-s text-amber-400"></i>
@@ -247,7 +259,7 @@
     </div>
 </section>
 <!-- client question -->
-    <section class="grid grid-cols-2 sm:grid-col-1 lg:grid-cols-2">
+    <section class="grid grid-cols-2 sm:grid-col-1 lg:flex-col">
       <div>
         <img src="Images/11.png" alt="Shoes" />
       </div>
@@ -313,5 +325,87 @@
       </div>
     </div>
     </section>
+    <section>
+      <div class="text-center my-24 lg:flex-col sm:col-span-1">
+        <h2 class="text-3xl font-bold mb-5"> Get In Touch</h2>
+        <P class="mx-auto mb-10 lg:max-w-3xl">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor.
+          Purus urna in sit nullam proin.</P>
+         </div>
+    </section>
+    <!-- input section -->
+    <section class="grid grid-cols-2 gap-2 sm:col-span-1 lg:flex-col">
+      <div class="bg-white dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
+            <img src="Images/Group 1171275317.png" alt="">
+          <h4> <span class="text-gray-700">Phone Number :</span> <br>
+            (+62) 123-321-543</h4>
+    
+          <img src="Images/Group 1171275318.png" alt="">
+        <h4> <span class="text-gray-700"> Email :</span> <br> hockeys@support.com</h4></div>
+
+        <img src="" alt="">
+        <h4> <span class="text-gray-700"> Location :</span> <br> 
+          152/1 Mohakhali Wireless Gate</h4></div>
+
+      </div>
+<div class="-mt-60 p-4 sm:flex-col lg:grid-col">
+  <form action="your name"><label="name"> your name
+    <input id="your name" type="text" placeholder="your name"></label>
+   </form>
+   <form action="your email"><label="email"> your email
+    <input id="your email" type="email" placeholder="your email"></label>
+   </form>
+   <form action="your subject"><label="subject"> your subject
+    <input id="your subject" type="text" placeholder="your subject">
+  </label>
+   </form>
+   <form action="your phone"><label="phone"> your phone
+    <input id="your phone" type="number" placeholder="your phone"></label>
+   </form>
+   <form action="Message"><label="message"> Messages
+    <input type="text" placeholder="Type here" class="input input-bordered input-lg w-full max-w-xs" /></label>
+   </form> <br>
+ <button class="btn btn-error"  >send Messages</button>
+</div>
+    </section>
 </body>
+<footer>
+<section>
+  <div class="text-center my-24 lg:flex-col sm:col-span-1">
+    <h2 class="text-3xl font-bold mb-5">Social Media</h2>
+  <p><i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i></p> </div>
+</section>
+<section>
+  <footer class="footer p-10 bg-neutral text-neutral-content">
+    <aside>
+      <svg width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" class="fill-current"></svg>
+     <H3 class="text 5xl font font-extrabold">Get In Touch</H3>
+      <p class="text l"> Condimentum  adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. <br/>hockeys@support.com <br>
+        (+62) 123-321-543</p>
+    </aside> 
+    <nav>
+      <header class="footer-title">Services</header> 
+      <a class="link link-hover">Branding</a>
+      <a class="link link-hover">Design</a>
+      <a class="link link-hover">Marketing</a>
+      <a class="link link-hover">Advertisement</a>
+    </nav> 
+    <nav>
+      <header class="footer-title">Company</header> 
+      <a class="link link-hover">About us</a>
+      <a class="link link-hover">Contact</a>
+      <a class="link link-hover">Jobs</a>
+      <a class="link link-hover">Press kit</a>
+    </nav> 
+    <nav>
+      <header class="footer-title">Legal</header> 
+      <a class="link link-hover">Terms of use</a>
+      <a class="link link-hover">Privacy policy</a>
+      <a class="link link-hover">Cookie policy</a>
+    </nav>
+  </footer>
+</section>
+</footer>
 </html> 
